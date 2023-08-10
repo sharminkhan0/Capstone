@@ -2,35 +2,65 @@
 
 
 .about {
-    background: url('./images/Durgapur-Tourist-attractions.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #e3e2e1;
-    padding: 20px;
-    background-blend-mode: soft-light;
-    overflow: hidden;
+  background: url('./images/Durgapur-Tourist-attractions.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e3e2e1;
+  padding: 20px;
+  background-blend-mode: soft-light;
+  overflow: hidden;
 
-  }
+}
   
-  .headline {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 70px;
-  }
+.headline {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
   
-  .headline-title {
-    font-size: 32px;
-    font-weight: 900;
-    color: #eb1d07;
-    margin: 30px 0;
-    text-align: center;
-    line-height: 35px;
-  }
+.headline-title {
+  font-size: 32px;
+  font-weight: 900;
+  color: #eb1d07;
+  margin: 30px 0;
+  text-align: center;
+  line-height: 35px;
+}
+
+.headline-title:hover {
+  color: var(--primary-color);
+  font-weight: 900;
+  transform: translateY(-5px);
+}
+  
+.headline-intro-text {
+  background: #fff;
+  color: #292d35;
+  padding: 25px;
+  max-width: 100%;
+  border: 1px solid #cdcbcb;
+  margin-bottom: 15px;
+  text-align: center;
+}
+  
+.headline h4 {
+  font-weight: normal;
+  color: #292c34;
+  margin: 20px 0;
+  text-align: center;
+}
+  
+address {
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
