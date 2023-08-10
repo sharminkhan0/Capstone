@@ -215,6 +215,19 @@ address {
 }
 
 
+@media screen and (max-width: 768px) {
+
+  .mo-footer {
+    padding: 70px;
+  }
+
+  .logo img {
+    width: 35%;
+  }
+
+}
+
+
 @media screen and (min-width: 768px) {
   .headline {
     display: flex;
