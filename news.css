@@ -231,7 +231,7 @@ button strong:hover {
   margin: 35px, 35px, 35px, 35px;
   padding: 15px, 15px, 15px, 15px;
   font-weight: 600;
-  color: var(--secoddary-color);
+  color: #272a31;
   text-align: center;
 }
 
@@ -245,7 +245,7 @@ button strong:hover {
 }
 
 .lunch-title:hover {
-  color: var(--primary-color);
+  color: #ec5242;
   font-weight: 900;
   transform: translateY(-5px);
   letter-spacing: 2px;
@@ -316,13 +316,30 @@ table, td i {
   justify-content: center;
   text-decoration: none;
   color: #fff;
-  background: var(--primary-color);
+  background: #ec5242;
   margin: 35px 0;
   padding: 20px;
   font-size: 16px;
   border: 1px solid #ec5242;
   margin-left: 10%;
 }
+
+.button-select:hover {
+  background: #fff;
+  color: #ec5242;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+  box-shadow: 0 10px 12px 0 #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: rotateX(20deg);
+  transform: translateY(-7px);
+}
+
+.button-select:active {
+  background: #d6d6d6;
+  color: #272a31;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+}
+
+
 
 
 
