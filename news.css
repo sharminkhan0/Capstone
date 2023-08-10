@@ -209,3 +209,20 @@ button strong:hover {
   margin-top: -50px;
 }
 
+.select-lunch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #bfbebd;
+  background-image: url("./resources/images/bogura\ -doi.jpg");
+  background-blend-mode: color-flash;
+  background-color: rgba(216, 212, 212, 0.928);
+  background-blend-mode: soft-light;
+  overflow: hidden;
+  margin-top: 0;
+  top: 0;
+}
+
