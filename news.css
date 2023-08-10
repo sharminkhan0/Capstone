@@ -34,9 +34,43 @@
   margin-right: 7px;
 }
 
+.ticket-menu-text {
+  color: #ec5242;
+  font-size: 14px;
+  font-weight: 500;
+  align-self: center;
+}
 
+.ticket-menu-text:hover {
+  color: #272a31;
+}
 
+.ticket-menu-icon {
+  max-height: 20px;
+  color: #f70909;
+}
 
+.ticket-menu-icon:hover {
+  color: rgb(84, 84, 87);
+}
+
+.ticket-menu-icon .fa-house {
+  color: #272a31;
+  font-size: 12px;
+}
+
+.ticket-menu-icon .fa-house:hover {
+  color: #ec5242;
+}
+
+.headline {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
 
 
 
