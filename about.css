@@ -34,7 +34,7 @@
 }
 
 .headline-title:hover {
-  color: var(--primary-color);
+  color: #ec5242;
   font-weight: 900;
   transform: translateY(-5px);
 }
@@ -106,7 +106,7 @@ address {
 }
 
 .recent .recent-title:hover {
-  color: var(--primary-color);
+  color: #ec5242;
   font-weight: 900;
   letter-spacing: 2px;
   transform: translateY(-5px);
@@ -142,7 +142,7 @@ address {
 }
 
 .about-past .past-title:hover {
-  color: var(--primary-color);
+  color: #ec5242;
   font-weight: 900;
   letter-spacing: 2px;
   transform: translateY(-5px);
@@ -213,19 +213,32 @@ address {
 }
 
 
-/* @media screen and (max-width: 768px) {
-
-  .mo-footer {
-    padding: 70px;
+@media screen and (max-width: 768px) {
+  .logo img {
+    display: none;
   }
 
-  .mo-logo {
+  .b-logo {
+    padding-left: 15px;
+  }
+
+  .b-logo img {
+    width: 70%;
+  }
+
+  .mobile-sponser {
+    display: none;
+  }
+
+  .mobile-footer {
     display: block;
-    width: 35%;
+    padding: 20px;
   }
 
-} */
-
+  .rights p {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .headline {
     display: flex;
