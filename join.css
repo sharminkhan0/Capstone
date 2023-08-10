@@ -515,7 +515,7 @@
   .break {
     height: 35px;
     justify-items: center;
-    padding-top: ;
+    padding-top: 0;
   }
 
   .grid-item {
@@ -593,7 +593,7 @@
   }
 
   .t-place span {
-    color: var(--primary-color); 
+    color: #ec5242; 
   }
 
   .t-place legend {
@@ -608,6 +608,87 @@
     height: 360px;
     overflow: hidden;
    }
+
+
+   @media screen and (max-width: 768px) {
+
+    .headline {
+      max-width: 800px;
+    }
+
+    .table time-schedule {
+      margin-top: 0px;
+      padding-top: 0;
+      top: 0;
+    }
+
+    .sub-date-heading{
+      margin-left: 19%;
+    }
+    
+    .date-schedule {
+        width: 500px;
+        margin-left: 20%;
+      }
+
+      .thin-line {
+        width: 475px;
+        margin-left: 20%;
+      }
+
+      .tag-add {
+        width: 200px;
+        margin-right: 20%;
+      }
+
+      .topic-title {
+        font-size: 24px;
+      }
+
+      .topic-title span {
+        font-size: 24px;
+      }
+
+      .topic-title leg {
+        font-size: 24px;
+      }
+
+      .topic-title:hover {
+        color: var(--primary-color);
+        font-weight: 900;
+        letter-spacing: 2px;
+        transform: translateY(-7px);
+        font-size: 25px;
+      }
+
+      .topic-title span:hover {
+        color: var(--primary-color);
+        font-weight: 900;
+        letter-spacing: 2px;
+        transform: translateY(-7px);
+        font-size: 25px;
+      }
+      .topic-title leg:hover {
+        color: var(--primary-color);
+        font-weight: 900;
+        letter-spacing: 2px;
+        transform: translateY(-7px);
+        font-size: 25px;
+      }
+
+      .program-schedule {
+        width: 450px;
+        margin-right: 13.8%;
+        padding-left: 0;
+      }
+
+      .grid-container {
+        width: 500px;
+        margin-top: .5%;
+        margin-right: 13.8%;
+      }
+  
+  }
   
 
 
