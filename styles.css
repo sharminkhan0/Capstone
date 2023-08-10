@@ -306,6 +306,88 @@ a {
   transform: translateY(-5px);
 }
 
+.program-name {
+  color: #b21503;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0;
+  width: 40%;
+  align-self: center;
+}
+
+.program-name:hover {
+  color: #fff;
+  font-weight: 900;
+  transform: translateY(-5px);
+}
+
+.program-details {
+  color: #fff;
+  text-align: left;
+  width: 50%;
+  align-self: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.program-details:hover {
+  color: #272A31;
+}
+
+.button-program {
+  width: 80%;
+  text-decoration: none;
+  color: #fff;
+  background: #ec5242;
+  margin: 35px 0;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #ec5242;
+}
+
+.button-program:hover {
+  background: #fff;
+  color: #ec5242;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+  box-shadow: 0 10px 12px 0 #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: rotateX(20deg);
+  transform: translateY(-7px);
+}
+
+.button-program:active {
+  background: #d6d6d6;
+  color: #272A31;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
