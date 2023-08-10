@@ -101,6 +101,43 @@
     position: relative;
   }
 
+  .tag-add::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 39px;
+    left: 80px;
+    transform: rotate(60deg);
+    background-color: #e6e3e1;
+    border: 1px solid #e6e3e1;
+  }
+
+  .tag-add::after {
+    content: "";
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(60deg);
+  }
+
+  button {
+    float: right;
+    margin-right: 9%;
+  }
+
+  .tag-add:hover {
+    color: white;
+    font-weight: 900;
+    background: #ec5242;
+    box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+    box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
+    transform: rotateX(20deg);
+    transform: translateY(-7px);
+  }
+
 
 
 
