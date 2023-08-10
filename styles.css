@@ -139,7 +139,60 @@ a {
   font-weight: bolder;
 }
 
+.nav-box:active {
+  color: #ec5242;
+  background: #fff;
+}
 
+.main-hero {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./images/jamdani1.jpg");
+  padding: 10px;
+  align-items: center;
+  background-blend-mode: color-burn;
+  background-color: rgba(232, 231, 231, 0.928);
+}
+
+.hero {
+  max-width: 85%;
+  margin-top: 25%; 
+}
+
+.hero-headline {
+  font-size: 28px;
+  margin-bottom: 10px;
+  letter-spacing: 0; 
+  font-weight: 600;  
+}
+
+.hero-headline:hover {
+  color: #ec5242;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transform: translateY(-5px);
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 900;
+  background-image: url("./images/4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 35px;
+  color: transparent;
+  -webkit-background-clip: text; 
+}
+
+.hero-title:hover {
+  color: transparent;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  transform: translateY(-7px);
+}
 
 
 
