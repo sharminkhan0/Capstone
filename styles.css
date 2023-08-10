@@ -171,7 +171,7 @@ a {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./images/jamdani1.jpg");
+  background-image: url("resources/images/jamdani1.jpg");
   padding: 10px;
   align-items: center;
   background-blend-mode: color-burn;
@@ -201,7 +201,7 @@ a {
 .hero-title {
   font-size: 2rem;
   font-weight: 900;
-  background-image: url("./images/4.jpg");
+  background-image: url("./resources/images/4.jpg");
   background-size: cover;
   background-attachment: fixed;
   line-height: 35px;
@@ -258,7 +258,7 @@ a {
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./images/bg-prog.png");
+  background-image: url("./resources/images/bg-prog.png");
   background-color: rgba(104, 101, 101, 0.928);
 }
 
@@ -308,7 +308,7 @@ a {
 .program-item:hover {
   transform: translateY(-3px);
   border-color: #fff;
-  background-image: url("./images/sitol_pat.jpg");
+  background-image: url("./resources/images/sitol_pat.jpg");
   box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
 }
 
@@ -427,7 +427,7 @@ a {
   font-weight: 900;
   letter-spacing: 1px;
   border: 2px solid #f00;
-  background-image: url("./images/langra\ amm.jpg");
+  background-image: url("./resources/images/langra\ amm.jpg");
   transform: translateY(-5px);
 }
 
