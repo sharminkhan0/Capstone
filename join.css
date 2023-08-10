@@ -689,6 +689,44 @@
       }
   
   }
+
+  @media screen and (min-width: 768px) {
+     
+    .schedule-title {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .headline {
+      display: flex;
+      justify-content: center;
+      max-width: 800px;
+      align-items: center;
+      flex-direction: column;  
+    }
+
+    .date-schedule {
+      padding-bottom: 25px;
+    }
+
+    .tag-add {
+      margin-top: 10px;
+    }
+
+    button {
+      margin-right: 18%;
+    }
+
+    .grid-container {
+      padding-top: 0;
+      margin-top: 0;
+      width: 1000px;
+      margin-right: 13.8%;
+
+    }
+
+}
+
   
 
 
