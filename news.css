@@ -10,7 +10,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #bfbebd;
-  padding: 20px 20px 0px 20px;
+  padding: 20px 20px 0 20px;
   background-blend-mode: soft-light;
   overflow: hidden;
 }
@@ -74,8 +74,8 @@
 
 .ticket-title {
   font-size: 28px;
-  margin: 0px, 35px, 35px, 35px;
-  padding: 15px, 0px, 15px, 15px;
+  margin: 0 35px 35px 35px;
+  padding: 15px 0 15px 15px;
   font-weight: 600;
   color: #272a31;
   text-align: center;
@@ -118,7 +118,7 @@ button strong {
 }
 
 button strong:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 .search-button:hover {
@@ -128,7 +128,7 @@ button strong:hover {
   box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
   transform: rotateX(20deg);
   transform: translateY(-7px);
-} 
+}
 
 .table {
   padding-top: 40px;
@@ -143,9 +143,35 @@ button strong:hover {
   transition: all 0.5s ease-in-out;
   background: url("./resources/images/ticket\ 1.png");
   background-size: cover;
-  background-attachment: relative;
   border: 15px dashed transparent;
   box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+}
+
+.table-ticket,
+th,
+td {
+  font-size: 15px;
+  color: #757373;
+}
+
+.table-ticket th,
+td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #b6b5b5;
+  border-collapse: collapse;
+  background-color: #edecec;
+}
+
+.table-ticket .amount {
+  font-size: 18px;
+  color: #ec5242;
+}
+
+.table-ticket,
+td i {
+  color: #a3a1a1;
+  font-size: 10px;
 }
 
 .table-ticket:hover {
@@ -156,27 +182,11 @@ button strong:hover {
   transform: translateY(-7px);
 }
 
-.table-ticket th, td {
-  text-align: center;
-  padding: 8px;
-  border: 1px solid #b6b5b5;
-  border-collapse: collapse;
-  background-color: #edecec;
-}
-
-.table-ticket, th, td {
-  font-size: 15px;
-  color: #757373;
-}
-
-.table-ticket .amount {
-  font-size: 18px;
-  color: #ec5242;
-}
-
-.table-ticket, td i {
+table,
+td i {
   color: #a3a1a1;
   font-size: 10px;
+  padding-right: 20px;
 }
 
 .daimond-drop i {
@@ -189,7 +199,7 @@ button strong:hover {
 }
 
 
-/*----lunch section----*/
+/* ----lunch section---- */
 
 .daimond-down i {
   align-items: center;
@@ -216,11 +226,9 @@ button strong:hover {
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #bfbebd;
   background-image: url("./resources/images/bogura\ -doi.jpg");
-  background-blend-mode: color-flash;
-  background-color: rgba(216, 212, 212, 0.928);
   background-blend-mode: soft-light;
+  background-color: rgba(216, 212, 212, 0.928);
   overflow: hidden;
   margin-top: 0;
   top: 0;
@@ -228,8 +236,8 @@ button strong:hover {
 
 .lunch-title {
   font-size: 28px;
-  margin: 35px, 35px, 35px, 35px;
-  padding: 15px, 15px, 15px, 15px;
+  margin: 35px 35px 35px 35px;
+  padding: 15px 15px 15px 15px;
   font-weight: 600;
   color: #272a31;
   text-align: center;
@@ -255,7 +263,7 @@ table {
   border: 1px solid #b9b7b7;
 }
 
-.table-1, 
+.table-1,
 .table-2 {
   margin-top: 7%;
   border-collapse: collapse;
@@ -264,15 +272,14 @@ table {
   background: #fdfcfc;
 }
 
-.table-1 th, 
+.table-1 th,
 .table-2 th {
   height: 50px;
   border-bottom: none;
   color: #b8b5b5;
-  
 }
 
-.table-1 td, 
+.table-1 td,
 .table-2 td {
   height: 80px;
   border: none;
@@ -287,21 +294,15 @@ tr:nth-child(even) {
   margin-bottom: 7%;
 }
 
-table, td i {
-  color: #a3a1a1;
-  font-size: 10px;
-  padding-right: 20px;
-} 
-
 .setmenu:hover {
-  background: #ffffff;
+  background: #fff;
   box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
   box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
   transform: translateY(-7px);
   transition: all 0.5s ease-in-out;
 }
 
-.table-1:hover, 
+.table-1:hover,
 .table-2:hover {
   background: rgb(248, 209, 209);
   box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
@@ -356,9 +357,9 @@ table, td i {
     width: 350px;
   }
 
-  .table-ticket, 
+  .table-ticket,
   .table-1,
-  .table-2{
+  .table-2 {
     width: 500px;
   }
 
@@ -372,7 +373,6 @@ table, td i {
 }
 
 @media screen and (min-width: 768px) {
-     
   .headline {
     display: flex;
     justify-content: center;
@@ -389,7 +389,6 @@ table, td i {
     padding-right: 13.8%;
     width: 100%;
     margin-top: 130px;
-    padding: 0;
     top: 0;
   }
 
@@ -424,7 +423,7 @@ table, td i {
   .ticket-menu-icon:hover {
     color: rgb(84, 84, 87);
   }
-  
+
   .table-ticket {
     width: 1000px;
     height: 290px;
@@ -452,6 +451,13 @@ table, td i {
     margin-bottom: 8%;
   }
 
+  button .button-select {
+    margin-top: -30px;
+    padding-top: -70px;
+    margin-bottom: 20%;
+    padding-bottom: 70px;
+  }
+
   .button-select:hover {
     background: initial;
     color: var(--primary-color);
@@ -462,24 +468,4 @@ table, td i {
     background: initial;
     color: #fff;
   }
-
-  button .button-select {
-    margin-top: -30px;
-    padding-top: -70px;
-    margin-bottom: 20%;
-    padding-bottom: 70px;
-  }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
