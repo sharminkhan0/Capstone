@@ -584,3 +584,255 @@ a {
     display: none;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    background: #fff;
+    padding: 0;
+  }
+
+  .header-topbar {
+    display: flex;
+    background: rgb(74, 73, 73);
+    color: #fff;
+    height: 35px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-topbar-group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding-right: 13.8%;
+  }
+
+  .header-topbar-item {
+    margin-right: 20px;
+  }
+
+  .header-topbar-item-link {
+    color: #fff;
+    font-size: 14px;
+    align-self: center;
+  }
+
+  .header-topbar-item-link:hover {
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    font-weight: 800;
+    transition: all 0.5s zoom-out;
+  }
+
+  .topbar-social-icon {
+    max-height: 18px;
+    color: #fff;
+  }
+
+  .topbar-social-icon:hover {
+    color: rgb(78, 100, 243);
+    font-size: 20px;
+    font-weight: 800;
+    transform: translateY(-7px);
+  }
+
+  .navbar {
+    padding: 8px 20px;
+    justify-content: space-between;
+  }
+
+  .mobile-navbar {
+    display: none;
+  }
+
+  .desktop-navbar {
+    display: flex;
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+
+  .logo img {
+    width: 35%;
+  }
+
+  .menu-icon,
+  .close-icon {
+    display: none;
+  }
+
+  .navbar-item-group {
+    padding-right: 14px;
+  }
+
+  .navbar-item {
+    align-items: center;
+  }
+
+  .navbar-link {
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 27px;
+    color: #666363;
+    padding-right: 29px;
+  }
+
+  .navbar-box {
+    margin: 10px;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 700;
+    box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+  }
+
+  nav ul li a {
+    color: var(--secoddary-color); 
+    text-decoration: none; 
+    font-size: 18px;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  nav ul li a::after {
+      content: '';
+      width: 0;
+      height: 3px;
+      background: #ff0000;
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      transition: 0.5s;
+  }
+  
+  nav ul li a:hover::after {
+      width: 40%;
+  }
+  
+  nav ul li a:hover {
+      color: #fa0452;
+      letter-spacing: 1px;
+      transform: translateY(-5px);
+      font-weight: 900;
+  }
+  
+
+  .hero {
+    max-width: 95%;
+    margin: 15% 9% 1% 10%;
+  }
+
+  .hero-headline {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .hero-title {
+    font-size: 60px;
+    margin-bottom: 25px;
+    line-height: 70px;
+    font-weight: bolder;
+  }
+
+  .hero-date {
+    font-weight: 900;
+    font-size: 29px;
+  }
+
+  .program-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    max-width: 1000px;
+    margin: 3px auto;
+  }
+
+  .program-item {
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 5px;
+    height: 270px;
+    width: 350px;
+  }
+
+  .program-name {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .program-details {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #mobile-speakers-list {
+    display: none;
+  }
+
+  #desktop-speakers-list {
+    display: flex;
+  }
+
+  .speakers-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .speakers-roll {
+    width: 47%;
+    margin: 25px 5px;
+  }
+
+  .see-more-speakers {
+    display: none !important;
+  }
+
+  .button-program {
+    text-decoration: underline;
+    color: #fff;
+    background: initial;
+    border: none;
+    margin: 35px 0;
+    padding: 10px 15px;
+    width: 500px;
+  }
+
+  .button-program:hover {
+    background: initial;
+    color: var(--primary-color);
+    font-weight: 900;
+    letter-spacing: 2px;
+    transform: translateY(-7px);
+  }
+
+  .button-program:active {
+    background: initial;
+    color: #fff;
+  }
+
+  .sponser {
+    padding: 30px;
+  }
+
+  .sponser-item-group {
+    flex-wrap: nowrap;
+  }
+
+  .sponser-item {
+    margin: 25px;
+  }
+
+  .sponser-item img {
+    max-width: 150px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+
+}
