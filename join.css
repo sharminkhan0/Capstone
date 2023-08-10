@@ -537,6 +537,77 @@
     border-radius: 5px;
     box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
   }
+
+  .s-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 269px;
+    height: 150px;
+    padding-right: 0;
+    margin-right: 0;
+    background: #c1d1d9;
+    border: 1px solid #e7ddd4;
+    border-radius: 5px;
+    box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  }
+
+  .s-pro:hover {
+    background: #aad4e9;
+    transition: all 0.5s ease-in;
+    box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+    box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
+    transform: rotateX(20deg);
+    transform: translateY(-7px);
+  }
+
+  .t-speach {
+    margin-left: 2%;
+    padding: 3px;
+    margin: 3px;
+  } 
+
+  .p-name {
+    padding-left: 22%;
+    margin-top: -13%;
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  .t-detls {
+    font-size: 12px;
+    margin-top: 4%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .t-place {
+    font-size: 12px;
+    margin-top: 8%;
+    text-align: end;
+    margin-right: 0;
+    padding-right: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .t-place span {
+    color: var(--primary-color); 
+  }
+
+  .t-place legend {
+    text-decoration: underline;
+  } 
+   
+   .access {
+    position: relative;
+   }
+
+   .ministry {
+    height: 360px;
+    overflow: hidden;
+   }
   
 
 
