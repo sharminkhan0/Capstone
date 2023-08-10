@@ -59,3 +59,28 @@
     justify-content: flex-start;
     align-items: center;
   }
+
+  .menu-icon {
+    font-size: 25px;
+    align-self: center;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .close-icon {
+    position: absolute;
+    font-size: 25px;
+    bottom: 10px;
+    right: 25px;
+    color: #f4f3f3;
+    cursor: pointer;
+  }
+  
+  .navbar-item-group {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+
+  
