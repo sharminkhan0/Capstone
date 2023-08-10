@@ -495,6 +495,48 @@
     transform: translate(-50%) rotate(45deg);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
+
+  .keynote {
+    padding-right: 45%;
+  }
+
+  .keynote span {
+    padding-right: 10px;
+  }
+
+  .p-place {
+    color: var(--primary-color);
+  }
+
+  .note span {
+    padding-right: 10px;
+  }
+
+  .break {
+    height: 35px;
+    justify-items: center;
+    padding-top: ;
+  }
+
+  .grid-item {
+   display: flex; 
+   height: 165px;
+  }
+
+  .s-pro-forum {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 269px;
+    height: 350px;
+    padding-right: 0;
+    margin-right: 0;
+    background: #c1d1d9;
+    border: 1px solid #e7ddd4;
+    border-radius: 5px;
+    box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  }
   
 
 
