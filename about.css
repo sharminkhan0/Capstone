@@ -106,3 +106,53 @@ address {
 .recent .recent-title {
   color: #272a31;
 }
+
+.recent .recent-title:hover {
+  color: var(--primary-color);
+  font-weight: 900;
+  letter-spacing: 2px;
+  transform: translateY(-5px);
+}
+
+.logo-img {
+  padding: 35px;
+  border: 1px solid #d2cece;
+  margin-bottom: 25px;
+}
+
+.logo-img img {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+}
+
+.logo-img:hover {
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+}
+
+.about-past {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 30px 20px;
+}
+
+.about-past .past-title {
+  color: #272a31;
+}
+
+.about-past .past-title:hover {
+  color: var(--primary-color);
+  font-weight: 900;
+  letter-spacing: 2px;
+  transform: translateY(-5px);
+}
+
+.past-intro-text {
+  margin: 20px 0;
+  padding: 15px;
+}
+
+
