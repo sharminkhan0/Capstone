@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
 .about {
   background: url('./images/Durgapur-Tourist-attractions.webp');
   background-repeat: no-repeat;
@@ -14,9 +13,8 @@
   padding: 20px;
   background-blend-mode: soft-light;
   overflow: hidden;
-
 }
-  
+
 .headline {
   max-width: 100%;
   display: flex;
@@ -25,7 +23,7 @@
   flex-direction: column;
   margin-top: 70px;
 }
-  
+
 .headline-title {
   font-size: 32px;
   font-weight: 900;
@@ -40,7 +38,7 @@
   font-weight: 900;
   transform: translateY(-5px);
 }
-  
+
 .headline-intro-text {
   background: #fff;
   color: #292d35;
@@ -50,14 +48,14 @@
   margin-bottom: 15px;
   text-align: center;
 }
-  
+
 .headline h4 {
   font-weight: normal;
   color: #292c34;
   margin: 20px 0;
   text-align: center;
 }
-  
+
 address {
   text-decoration: underline;
   font-style: normal;
@@ -190,7 +188,7 @@ address {
   background: rgba(224, 64, 64, 0.7);
   transition: all 0.1s ease-in-out;
   box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
-  transform: translateY(-tpx);
+  transform: translateY(-7px);
 }
 
 .summit-year {
@@ -215,7 +213,7 @@ address {
 }
 
 
-/*@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
   .mo-footer {
     padding: 70px;
@@ -226,8 +224,7 @@ address {
     width: 35%;
   }
 
-}*/
-
+} */
 
 @media screen and (min-width: 768px) {
   .headline {
@@ -256,7 +253,7 @@ address {
   }
 
   .sponser {
-      display: none;
+    display: none;
   }
 
   .black-footer {
