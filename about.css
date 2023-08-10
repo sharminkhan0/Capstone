@@ -64,3 +64,45 @@ address {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+.about-recent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background: #fff;
+  flex-direction: column;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.recent {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.recent-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.recent-title::after {
+  content: '';
+  border-bottom: 3px solid #ec5242;
+  display: block;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 90px;
+}
+
+.recent-intro-text {
+  text-align: center;
+  margin: 0 35px;
+}
+
+.recent .recent-title {
+  color: #272a31;
+}
