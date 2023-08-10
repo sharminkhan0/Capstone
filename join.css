@@ -192,6 +192,23 @@
     transform: translateY(-7px);
   }
 
+  span {
+    font-weight: 600;
+    color: #272a31;
+  }
+
+  leg {
+    font-weight: 500;
+    color: #272a31;
+  }
+
+  .topic-title:hover {
+    color: #ec5242;
+    font-size: 30px;
+    letter-spacing: 2px;
+    transform: translateY(-7px);
+  }
+
 
 
 
