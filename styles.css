@@ -117,21 +117,6 @@ a {
   transition: color 0.5s ease-in-out;
 }
 
-.navbar-box {
-  width: 145px;
-  display: block;
-  align-items: center;
-  margin: 10px;
-  font-size: 20px;
-  transition: color 0.5s ease-in-out;
-  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
-}
-
-.mobile-navbar.navbar-box {
-  width: 145px;
-  padding-top: 20px;
-}
-
 .navbar-link:hover {
   color: #b94032;
   letter-spacing: 2px;
@@ -139,9 +124,41 @@ a {
   font-weight: bolder;
 }
 
+.navbar-link:active {
+  color: #d3d3d3;
+}
+
+.navbar-box {
+  width: 145px;
+  display: block;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+  transition: color 0.5s ease-in-out;
+  border: 5px solid #ec5242;
+  font-weight: 700;
+  text-align: center;
+  padding: 11px 0;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+}
+
+.navbar-box:hover {
+  background: #ec5242;
+  color: #fff;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+  box-shadow: 0 10px 12px 0 #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: rotateX(20deg);
+  transform: translateY(-7px);
+}
+
 .nav-box:active {
   color: #ec5242;
   background: #fff;
+}
+
+.mobile-navbar.navbar-box {
+  width: 145px;
+  padding-top: 20px;
 }
 
 .main-hero {
@@ -237,7 +254,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("./images/bg-prog.png");
-  background-blend-mode: color-burn;
+  background-blend-mode: color-flash;
   background-color: rgba(104, 101, 101, 0.928);
 }
 
