@@ -218,7 +218,7 @@ a {
 }
 
 .hero-date:hover {
-  color: var(--primary-color);
+  color: #ec5242;
   font-weight: 900;
   letter-spacing: 2px;
   transform: translateY(-5px);
@@ -240,6 +240,74 @@ a {
   background-blend-mode: color-flash;
   background-color: rgba(104, 101, 101, 0.928);
 }
+
+.program-title {
+  font-size: 28px;
+  margin: 35px;
+  padding: 15px;
+  font-weight: 600;
+  color: #f2f3f3;
+  text-align: center;
+}
+
+.program-title::after {
+  content: '';
+  border-bottom: 3px solid #ec5242;
+  display: block;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.program-title:hover {
+  color: #ec5242;
+  font-weight: 900;
+  letter-spacing: 2px;
+  transform: translateY(-5px);
+}
+
+.program-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: inline-block;
+  gap: 17px;
+  width: 100%;
+  list-style: none;
+}
+
+.program-item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+  margin: 0 15px;
+}
+
+.program-item:hover {
+  transform: translateY(-3px);
+  border-color: #fff;
+  background-image: url("./images/sitol_pat.jpg");
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+}
+
+.program-pic {
+  align-self: center;
+  margin: 10px 0;
+  width: 40px;
+}
+  
+.program-pic img {
+  width: 100%;
+}
+
+.program-pic img:hover{
+  transform: translateY(-5px);
+}
+
+
+
 
 
 
