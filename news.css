@@ -251,6 +251,43 @@ button strong:hover {
   letter-spacing: 2px;
 }
 
+table {
+  border: 1px solid #b9b7b7;
+}
+
+.table-1, 
+.table-2 {
+  margin-top: 7%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 1000px;
+  background: #fdfcfc;
+}
+
+.table-1 th, 
+.table-2 th {
+  height: 50px;
+  border-bottom: none;
+  color: #b8b5b5;
+  
+}
+
+.table-1 td, 
+.table-2 td {
+  height: 80px;
+  border: none;
+}
+
+tr:nth-child(even) {
+  background-color: #fcfcfc;
+  border-spacing: 0;
+}
+
+.table-2 {
+  margin-bottom: 7%;
+}
+
+
 
 
 
