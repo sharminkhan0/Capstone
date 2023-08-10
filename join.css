@@ -138,6 +138,60 @@
     transform: translateY(-7px);
   }
 
+  .sub-date-heading {
+    font-size: 24px;
+    margin-top: 35px;
+    margin-right: 0px;
+    margin-left: 38%;
+    font-weight: 900;
+    color: #272a31;
+    text-align: center;
+  }
+
+  .sub-date-heading strong {
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+.sub-date-heading:hover {
+  color: #ec5242;
+  font-size: 26px;
+  letter-spacing: 1px;
+  transform: translateY(-7px);
+}
+
+.sub-date-heading strong:hover {
+  font-size: 27px;
+}
+
+.topic-title {
+  font-size: 28px;
+    margin: 35px;
+    padding: 15px, 0px, 0px, 15px;
+    font-weight: 900;
+    color: #272a31;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+  }
+
+  span {
+    font-weight: 600;
+    color: #272a31;
+  }
+
+  leg {
+    font-weight: 500;
+    color: #272a31;
+  }
+
+  .topic-title:hover {
+    color: #ec5242;
+    font-size: 30px;
+    letter-spacing: 2px;
+    transform: translateY(-7px);
+  }
+
 
 
 
