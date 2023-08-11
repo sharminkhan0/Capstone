@@ -67,6 +67,8 @@ For more information on the importance of a professional README for your reposit
 
  The purpose of Capstone Project is to showcase the academic programs and research possibilities available by offering information and resources to students, faculty, and university visitors. built with JavaScript, CSS, and HTML. The main goal of this project is to get some experience working professionally with CSS, HTML, and JavaScript in responsive design, using the fundamental structure, data query, and flexbox, all while adhering to a Behance template. Final Project
 
+ (<img src="./resources/Final-capstone.png" alt="" class="cover">)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
