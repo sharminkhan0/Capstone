@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://kit.fontawesome.com/8c1870b6fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Capstone Project</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-topbar">
+            <ul class="header-topbar-group" id="header-topbar-group">
+                <li class="header-topbar-item">
+                    <a class=" topbar-social-icon" href="#">
+                        <i class="fa-brands fa-facebook-f "></i>
+                    </a>
+                </li>
+                <li class="header-topbar-item">
+                    <a class="topbar-social-icon" href="#">
+                        <i class="fa-brands fa-twitter "></i>
+                    </a>
+                </li>
+                <li class="header-topbar-item">
+                    <a class="header-topbar-item-link" href="#english">English</a>
+                </li>
+                <li class="header-topbar-item">
+                    <a class="header-topbar-item-link" href="#mypage">MyPage</a>
+                </li>
+                <li class="header-topbar-item">
+                    <a class="header-topbar-item-link" href="#logout">Logout</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <nav class="navbar">
+
+            <span class="logo">
+                <img src="./resources/logo/capstone-project-Logo_2.png" alt="" class="logo">
+            </span>
+
+            <div class="menu-icon">
+                <li><i class="fa-solid fa-bars" onclick="menu_icon()"></i></li>
+            </div>
+
+            <span class="close-icon">
+                <i class="fa-solid fa-xmark close-icon" onclick="closemenu()"></i>
+            </span>
+
+            <ul class="navbar-list mobile-navbar" id="navbar-item-group">
+
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link" href="about.html">About</a>
+                </li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link"
+                        href="index.html#program">Program</a></li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link" href="join.html#join">Join</a>
+                </li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link"
+                        href="index.html#sponser">Sponser</a></li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link" href="news.html#news">News</a>
+                </li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-box" href="index.html#hero">CC
+                        Compaign</a></li>
+            </ul>
+
+            <ul class="navbar-list desktop-navbar" id="deskto-navbar">
+
+                <li class="navbar-item"><a class="navbar-link" href="about.html#about">About</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#program">Program</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="join.html">Join</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#sponser">Sponser</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="news.html">News</a></li>
+                <li class="navbar-item"><a class="navbar-box" href="index.html#hero">CC Compaign</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-------End of Top Navbar ------------>
+    <!-- Main container start Form here -->
+
+    <main class="container">
+        <section id="main-hero" class="main-hero">
+            <div class="hero">
+                <h3 class="hero-headline primary-color">"Hello! Sharing world"</3>
+                    <h1 class="hero-title">GI<strong> PRODUCTS <br>GLOBAL SUMMIT <br>2023</strong></h1>
+
+                    <p class="hero-intro-text">In October, Bangladesh will host a happy celebration
+                        of the importance of geographical indication (GI) products,
+                        which will bring together individuals from local communities
+                        and more than 80 other nations to bring about good change.
+                    </p>
+                    <h2 class="hero-date">2023.10.22(SUN) ~ 25(Wed)</h2>
+                    <p class="hero-details">@Easturn University-Bangladesh, Pan Pasefic Sonargaon, Dhaka, and more</p>
+            </div>
+        </section>
+
+        <!------End of Header section ------->
+        <!-- Program Section start -->
+        <section id="program" class="program">
+            <h2 class="program-title">Main Program</h2>
+            <ul class="program-list">
+                <li class="program-item">
+                    <a class="program-pic">
+                        <img src="./resources/icon/lecture.png" alt="Web Introduction" />
+                    </a>
+                    <h4 class="program-name">Lecture</h4>
+                    <p class="program-details">Listen to the speakers form various countries about the messeges of
+                        sharing and opening.</p>
+                </li>
+
+                <li class="program-item">
+                    <div class="program-pic">
+                        <img src="./resources/icon/exhibition.png" alt="git and github" />
+                    </div>
+                    <h5 class="program-name">GIP Exhibition</h5>
+                    <p class="program-details">Appreciate various creations applying GI license of Products, organized
+                        from E-Commerce Development Center EDC.</p>
+                </li>
+
+                <li class="program-item">
+                    <div class="program-pic">
+                        <img src="./resources/icon/forum.png" alt="frontend" />
+                    </div>
+                    <h5 class="program-name">Forum</h5>
+                    <p class="program-details">Have the time to share your thoughts and opinions with experts for each
+                        topic</p>
+                </li>
+
+                <li class="program-item">
+                    <div class="program-pic">
+                        <img src="./resources/icon/workshop.png" alt="backend" />
+                    </div>
+                    <h5 class="program-name">Workshop</h5>
+                    <p class="program-details">Try creating your own work using open source license rather than just
+                        watching at it.</p>
+                </li>
+
+                <li class="program-item">
+                    <div class="program-pic">
+                        <img src="./resources/icon/ignite.png" alt="join the dot" />
+                    </div>
+                    <h5 class="program-name">GIP Igntie</h5>
+                    <p class="program-details">Get opportunities to network with GIP affiliates around the world, also
+                        after the summit.</p>
+                </li>
+            </ul>
+            <button class="button-program button-modal">SEE THE HOLE PROGRAM OF SUMMIT</button>
+        </section>
+        <!-- End of Program Section -->
+        <!-- Section Speakers Start-->
+        <section id="speakers" class="speakers">
+            <h2 class="program-title speakers-title">Featured Speakers</h2>
+            <ul class="speakers-list" id="mobile-speakers-list"></ul>
+            <ul class="speakers-list" id="desktop-speakers-list"></ul>
+            <button class="see-more-speakers">MORE<span><img src="./resources/icon/expand-arrow.png"
+                        alt="more" /></span></button>
+        </section>
+        <!--End of Section Speakers --->
+        <!-- Section Sponser Start-->
+        <section id="sponser" class="sponser mobile-sponser">
+            <h2 class="program-title">Partners</h2>
+            <ul class="sponser-item-group">
+                <li class="sponser-item">
+                    <img src="./resources/sponser/mozilla.png" alt="Silkroute Ladakh" />
+                </li>
+                <li class="sponser-item">
+                    <img src="./resources/sponser/Google.png" alt="GB Culture&tourism Aut" />
+                </li>
+                <li class="sponser-item">
+                    <img src="./resources/sponser/navar.png" alt="random" />
+                </li>
+                <li class="sponser-item">
+                    <img src="./resources/sponser/daumkakao.svg" alt="Serena Hotels" />
+                </li>
+                <li class="sponser-item">
+                    <img src="./resources/sponser/airbnb.png" alt="Target Shooting Club GB" />
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!--End of Section Sponser --->
+    <!-- Section Footer Start-->
+    <footer class="footer mobile-footer">
+        <div class="footer-block">
+            <div class="b-logo">
+                <img src="./resources/logo/capstone-project-Logo_2.png" alt="GI Products" />
+            </div>
+            <div class="rights">
+                <h3>&#169;2023 GI Products Bangladesh. Some Rights Reserved.</h3>
+                <p>달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능 내용과 허락조건은
+                    <strong>http://creativecommons.org/licences/by/2.0/kr</strong> 를 보세요.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--End of Section Footer --->
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.select-ticket {
+  background: url('./resources/images/Natore\ Kacha\ gollah.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bfbebd;
+  padding: 20px 20px 0 20px;
+  background-blend-mode: soft-light;
+  overflow: hidden;
+}
+
+.ticket-menubar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+}
+
+.ticket-menubar-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.ticket-item {
+  margin-right: 7px;
+}
+
+.ticket-menu-text {
+  color: #ec5242;
+  font-size: 14px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.ticket-menu-text:hover {
+  color: #272a31;
+}
+
+.ticket-menu-icon {
+  max-height: 20px;
+  color: #f70909;
+}
+
+.ticket-menu-icon:hover {
+  color: rgb(84, 84, 87);
+}
+
+.ticket-menu-icon .fa-house {
+  color: #272a31;
+  font-size: 12px;
+}
+
+.ticket-menu-icon .fa-house:hover {
+  color: #ec5242;
+}
+
+.headline {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.ticket-title {
+  font-size: 28px;
+  margin: 0 35px 35px 35px;
+  padding: 15px 0 15px 15px;
+  font-weight: 600;
+  color: #272a31;
+  text-align: center;
+}
+
+.ticket-title::after {
+  content: '';
+  border-bottom: 3px solid #ec5242;
+  display: block;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.ticket-title:hover {
+  color: #ec5242;
+  font-weight: 900;
+  transform: translateY(-5px);
+  letter-spacing: 2px;
+}
+
+.search-button {
+  margin-top: 40px;
+  width: 700px;
+  height: 60px;
+  border-radius: 50px;
+  margin-bottom: 90px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+}
+
+button i {
+  font-size: 10px;
+  color: #ec5242;
+  padding-right: 7px;
+}
+
+button strong {
+  color: #ec5242;
+  padding-right: 15px;
+}
+
+button strong:hover {
+  color: #fff;
+}
+
+.search-button:hover {
+  background: #ec5242;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: rotateX(20deg);
+  transform: translateY(-7px);
+}
+
+.table {
+  padding-top: 40px;
+  margin-bottom: 7%;
+}
+
+.table-ticket {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 1000px;
+  height: 70px;
+  transition: all 0.5s ease-in-out;
+  background: url("./resources/images/ticket\ 1.png");
+  background-size: cover;
+  border: 15px dashed transparent;
+  box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  margin-bottom: 7%;
+}
+
+.table-ticket,
+th,
+td {
+  font-size: 15px;
+  color: #757373;
+}
+
+.table-ticket th,
+td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #b6b5b5;
+  border-collapse: collapse;
+  background-color: #edecec;
+}
+
+.table-ticket .amount {
+  font-size: 18px;
+  color: #ec5242;
+}
+
+.table-ticket,
+td i {
+  color: #a3a1a1;
+  font-size: 10px;
+}
+
+.table-ticket:hover {
+  background: rgb(248, 209, 209);
+  box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: rotateX(20deg);
+  transform: translateY(-7px);
+}
+
+table,
+td i {
+  color: #a3a1a1;
+  font-size: 10px;
+  padding-right: 20px;
+}
+
+.daimond-drop i {
+  align-items: center;
+  display: flex;
+  font-size: 90px;
+  color: red;
+  overflow: visible;
+  margin-bottom: -45px;
+}
+
+/* ----lunch section---- */
+.daimond-down i {
+  align-items: center;
+  display: flex;
+  font-size: 90px;
+  color: red;
+  overflow: visible;
+  margin-top: -47px;
+}
+
+.down-arrow {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: rgb(94, 91, 91);
+  overflow: visible;
+  margin-top: -50px;
+}
+
+.select-lunch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./resources/images/bogura\ -doi.jpg");
+  background-blend-mode: soft-light;
+  background-color: rgba(216, 212, 212, 0.928);
+  overflow: hidden;
+  margin-top: 0;
+  top: 0;
+}
+
+.lunch-title {
+  font-size: 28px;
+  margin: 35px 35px 35px 35px;
+  padding: 15px 15px 15px 15px;
+  font-weight: 600;
+  color: #272a31;
+  text-align: center;
+}
+
+.lunch-title::after {
+  content: '';
+  border-bottom: 3px solid #ec5242;
+  display: block;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.lunch-title:hover {
+  color: #ec5242;
+  font-weight: 900;
+  transform: translateY(-5px);
+  letter-spacing: 2px;
+}
+
+table {
+  border: 1px solid #b9b7b7;
+}
+
+.table-1,
+.table-2 {
+  margin-top: 7%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 1000px;
+  background: #fdfcfc;
+}
+
+.table-1 th,
+.table-2 th {
+  height: 50px;
+  border-bottom: none;
+  color: #b8b5b5;
+}
+
+.table-1 td,
+.table-2 td {
+  height: 80px;
+  border: none;
+}
+
+tr:nth-child(even) {
+  background-color: #fcfcfc;
+  border-spacing: 0;
+}
+
+.table-2 {
+  margin-bottom: 7%;
+}
+
+.setmenu:hover {
+  background: #fff;
+  box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: translateY(-7px);
+  transition: all 0.5s ease-in-out;
+}
+
+.table-1:hover,
+.table-2:hover {
+  background: rgb(248, 209, 209);
+  box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: rotateX(20deg);
+  transform: translateY(-7px);
+}
+
+.button-select {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  background: #ec5242;
+  margin: 35px 0;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #ec5242;
+  margin-left: 10%;
+}
+
+.button-select:hover {
+  background: #fff;
+  color: #ec5242;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+  box-shadow: 0 10px 12px 0 #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: rotateX(20deg);
+  transform: translateY(-7px);
+}
+
+.button-select:active {
+  background: #d6d6d6;
+  color: #272a31;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+}
+
+@media screen and (max-width: 768px) {
+  .ticket-menubar {
+    margin-top: 14%;
+  }
+
+  .ticket-menu-text {
+    font-size: 12px;
+  }
+
+  .ticket-menu-icon .fa-house {
+    font-size: 12px;
+  }
+
+  .search-button {
+    width: 350px;
+  }
+
+  .table-ticket,
+  .table-1,
+  .table-2 {
+    width: 500px;
+  }
+
+  .lunch-title {
+    margin-top: 17%;
+  }
+
+  .button-select {
+    margin-bottom: 12%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ticket-menubar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding-right: 13.8%;
+    width: 100%;
+    margin-top: 130px;
+    top: 0;
+  }
+
+  .ticket-menubar-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding-right: 13.8%;
+  }
+
+  .ticket-item {
+    margin-right: 7px;
+  }
+
+  .ticket-menu-text {
+    color: #757373;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .ticket-menu-text:hover {
+    color: var(--primary-color);
+    font-weight: 800;
+  }
+
+  .ticket-menu-icon {
+    max-height: 20px;
+    color: #f70909;
+  }
+
+  .ticket-menu-icon:hover {
+    color: rgb(84, 84, 87);
+  }
+
+  .table-ticket {
+    width: 1000px;
+    height: 290px;
+    box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  }
+
+  .table-1,
+  .table-2 {
+    width: 1000px;
+    box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  }
+
+  .lunch-title {
+    margin-top: 30px;
+  }
+
+  .button-select {
+    color: #fff;
+    margin: 0 35px;
+    padding: 35px 0 35px 35px;
+    width: 600px;
+    height: 60px;
+    justify-content: center;
+    margin-left: 20%;
+    margin-bottom: 8%;
+  }
+
+  button .button-select {
+    margin-top: -30px;
+    padding-top: -70px;
+    margin-bottom: 20%;
+    padding-bottom: 70px;
+  }
+
+  .button-select:hover {
+    background: initial;
+    color: var(--primary-color);
+    transform: translateY(-7px);
+  }
+
+  .button-select:active {
+    background: initial;
+    color: #fff;
+  }
+}

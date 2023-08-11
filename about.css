@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.about {
+  background: url('/resources/images/Durgapur-Tourist-attractions.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e3e2e1;
+  padding: 20px;
+  background-blend-mode: soft-light;
+  overflow: hidden;
+}
+
+.headline {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.headline-title {
+  font-size: 32px;
+  font-weight: 900;
+  color: #eb1d07;
+  margin: 30px 0;
+  text-align: center;
+  line-height: 35px;
+}
+
+.headline-title:hover {
+  color: #ec5242;
+  font-weight: 900;
+  transform: translateY(-5px);
+}
+
+.headline-intro-text {
+  background: #fff;
+  color: #292d35;
+  padding: 25px;
+  max-width: 100%;
+  border: 1px solid #cdcbcb;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.headline h4 {
+  font-weight: normal;
+  color: #292c34;
+  margin: 20px 0;
+  text-align: center;
+}
+
+address {
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-recent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background: #fff;
+  flex-direction: column;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.recent {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.recent-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.recent-title::after {
+  content: '';
+  border-bottom: 3px solid #ec5242;
+  display: block;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 90px;
+}
+
+.recent-intro-text {
+  text-align: center;
+  margin: 0 35px;
+}
+
+.recent .recent-title {
+  color: #272a31;
+}
+
+.recent .recent-title:hover {
+  color: #ec5242;
+  font-weight: 900;
+  letter-spacing: 2px;
+  transform: translateY(-5px);
+}
+
+.logo-img {
+  padding: 35px;
+  border: 1px solid #d2cece;
+  margin-bottom: 25px;
+}
+
+.logo-img img {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+}
+
+.logo-img:hover {
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+}
+
+.about-past {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 30px 20px;
+}
+
+.about-past .past-title {
+  color: #272a31;
+}
+
+.about-past .past-title:hover {
+  color: #ec5242;
+  font-weight: 900;
+  letter-spacing: 2px;
+  transform: translateY(-5px);
+}
+
+.past-intro-text {
+  margin: 20px 0;
+  padding: 15px;
+}
+
+.past-summit {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.past-summit-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.past-summit-item img {
+  width: 100%;
+}
+
+.summit-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  background: rgba(224, 64, 64, 0.7);
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0 2px 25px 0 rgba(250, 167, 206, 0.55);
+  transform: translateY(-7px);
+}
+
+.summit-year {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.summit-info p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.summit-info:hover {
+  transform: scale(1.3);
+  background: rgba(230, 62, 62, 0.8);
+}
+
+.desktop-footer {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo img {
+    display: none;
+  }
+
+  .b-logo {
+    padding-left: 15px;
+  }
+
+  .b-logo img {
+    width: 70%;
+  }
+
+  .mobile-sponser {
+    display: none;
+  }
+
+  .mobile-footer {
+    display: block;
+    padding: 20px;
+  }
+
+  .rights p {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .headline-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .past-summit {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .past-summit-item {
+    max-width: 47%;
+  }
+
+  .sponser {
+    display: none;
+  }
+
+  .black-footer {
+    background: #272a31;
+    color: #fff;
+  }
+
+  .mobile-footer {
+    display: none;
+  }
+
+  .desktop-footer {
+    display: block;
+  }
+}
