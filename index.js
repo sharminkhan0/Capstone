@@ -1,14 +1,14 @@
 // hide show menubar
 
 const element = document.getElementById('navbar-item-group');
-function menu_icon() {
+function menuIcon() {
   if (element.style.display === 'none') {
     element.style.display = 'flex';
   } else {
     element.style.display = 'none';
   }
 }
-element.addEventListener('click', menu_icon);
+element.addEventListener('click', menuIcon);
 
 // speakers section
 
