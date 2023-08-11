@@ -1,7 +1,7 @@
 // hide show menubar
 
 const element = document.getElementById('navbar-item-group');
-function menuicon() {
+function menu_icon() {
   if (element.style.display === 'none') {
     element.style.display = 'flex';
   } else {
