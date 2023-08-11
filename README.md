@@ -99,7 +99,7 @@ For more information on the importance of a professional README for your reposit
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://sharminkhan0.github.io/)
+- [Live Demo Link]( https://sharminkhan0.github.io/Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
