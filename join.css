@@ -635,6 +635,72 @@ legend {
   overflow: hidden;
 }*/
 
+@media screen and (max-width: 768px) {
+
+  .table .time-schedule {
+    margin-top: 0;
+    padding-top: 0;
+    top: 0;
+  }
+
+  .date-schedule {
+    width: 500px;
+    margin-left: 20%;
+  }
+
+  .thin-line {
+    width: 475px;
+    margin-left: 20%;
+  }
+
+  .tag-add {
+    width: 200px;
+    margin-right: 20%;
+  }
+
+  .topic-title {
+    font-size: 24px;
+  }
+
+  .topic-title span {
+    font-size: 24px;
+  }
+
+  .topic-title legend {
+    font-size: 24px;
+  }
+
+  .topic-title:hover {
+    color: var(--primary-color);
+    font-weight: 900;
+    letter-spacing: 2px;
+    transform: translateY(-7px);
+    font-size: 25px;
+  }
+
+  .topic-title span:hover {
+    color: var(--primary-color);
+    font-weight: 900;
+    letter-spacing: 2px;
+    transform: translateY(-7px);
+    font-size: 25px;
+  }
+
+  .topic-title legend:hover {
+    color: var(--primary-color);
+    font-weight: 900;
+    letter-spacing: 2px;
+    transform: translateY(-7px);
+    font-size: 25px;
+  }
+
+  .grid-container {
+    width: 500px;
+    margin-top: 0.5%;
+    margin-right: 13.8%;
+  }
+}
+
 
 
 
