@@ -174,3 +174,60 @@ button {
   margin-bottom: 0;
   padding-bottom: 5px;
 }
+
+span {
+  font-weight: 600;
+  color: #272a31;
+}
+
+legend {
+  font-weight: 500;
+  color: #272a31;
+}
+
+.topic-title legend:hover {
+  color: #ec5242;
+  font-size: 30px;
+  letter-spacing: 2px;
+  transform: translateY(-7px);
+}
+
+.topic-intro-text {
+  color: #292d35;
+  padding: 25px;
+  width: 60%;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-left: 19%;
+  margin-top: 0;
+}
+
+.program-schedule {
+  background: #e7e7e7;
+    display: flex;
+    color: #fff;
+    height: 35px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 450px;
+    margin-right: 13.8%;
+    padding-left: 0;
+    float: right;
+    margin-top: 0px;
+    padding-top: 0;
+    top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-radius: 5px;
+    border: 1px solid #b0afaf;
+    box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+}
+
+
+.program-schedule:hover {
+  box-shadow: 3px 5px 9px 2px rgba(250, 167, 206, 0.55);
+  box-shadow: 7px 15px 12px 3px #f34f4fb5, 0 8px 2px 0 #b30202f6;
+  transform: rotateX(20deg);
+  transform: translateY(-7px);
+}
+
