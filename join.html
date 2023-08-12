@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://kit.fontawesome.com/8c1870b6fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="news.css" />
+    <!--<link rel="stylesheet" href="about.css" />-->
+    <link rel="stylesheet" href="join.css" />
+    <title>About Summit</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-topbar">
+            <ul class="header-topbar-group" id="header-topbar-group">
+                <li class="header-topbar-item">
+                    <a class=" topbar-social-icon" href="#">
+                        <i class="fa-brands fa-facebook-f "></i>
+                    </a>
+                </li>
+                <li class="header-topbar-item">
+                    <a class="topbar-social-icon" href="#">
+                        <i class="fa-brands fa-twitter "></i>
+                    </a>
+                </li>
+                <li class="header-topbar-item">
+                    <a class="header-topbar-item-link" href="#english">English</a>
+                </li>
+                <li class="header-topbar-item">
+                    <a class="header-topbar-item-link" href="#mypage">MyPage</a>
+                </li>
+                <li class="header-topbar-item">
+                    <a class="header-topbar-item-link" href="#logout">Logout</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <nav class="navbar">
+
+            <span class="logo">
+                <img src="./images/capstone-project-Logo 1.png" alt="" class="logo">
+            </span>
+
+            <div class="menu-icon">
+                <li><i class="fa-solid fa-bars" onclick="menu_icon()"></i></li>
+            </div>
+
+            <span class="close-icon">
+                <i class="fa-solid fa-xmark close-icon" onclick="closemenu()"></i>
+            </span>
+
+            <ul class="navbar-list mobile-navbar" id="navbar-item-group">
+
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link" href="index.html#home">Home</a>
+                </li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link" href="index.html#about">About</a>
+                </li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link"
+                        href="index.html#program">Program</a></li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link"
+                        href="index.html#sponsar">Sponsar</a></li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-link" href="news.html#news">News</a>
+                </li>
+                <li class="navbar-item" onclick="closemenu()"><a class="navbar-box" href="index.html#hero">CC
+                        Compaign</a></li>
+            </ul>
+
+            <ul class="navbar-list desktop-navbar" id="deskto-navbar">
+
+                <li class="navbar-item"><a class="navbar-link" href="index.html#home">Home</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#about">About</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#program">Program</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#sponsar">Sponsar</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="news.html#news">News</a></li>
+                <li class="navbar-item"><a class="navbar-box" href="index.html#hero">CC Compaign</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-------End of Top Navbar ------------>
+    <!--Select ticket section start Form here -->
+
+    <main class="container">
+        <section id="ticket-schedule" class="ticket-schedule">
+            <div class="ticket-menubar">
+                <ul class="ticket-menubar-list" id="ticket-menubar-list">
+                    <li class="ticket-item"><a class="ticket-menu-icon" href="#"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li class="ticket-item"><a class="ticket-menu-icon" href="#"><i
+                                class="fa-light fa-greater-than"></i></a></li>
+                    <li class="ticket-item">
+                        <p class="ticket-menu-text"> 행사소개 </p>
+                    </li>
+                    <li class="ticket-item"><a class="ticket-menu-icon" href="#"><i
+                                class="fa-light fa-greater-than"></i></a></li>
+                    <li class="ticket-item">
+                        <p class="ticket-menu-text">GIP글로벌 써밋</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="table time-schedule">
+                <table class="date-schedule">
+                    <tr>
+                        <th>Sunday(22. Oct)</th>
+                        <th>Monday(23. Oct)</th>
+                        <th>Tuseday(24. Oct)</th>
+                        <th>Wednesday(25. Oct)</th>
+                    </tr>
+                </table>
+                <hr class="thin-line">
+
+                <button class="tag-add">Sang-seon-yak-su:"the supreme good is like water".</button>
+
+                <h3 class="sub-date-heading"><strong>10.24</strong> (TUS)</h3>
+                <h2 class="topic-title">Work of Sharing: <span>상선약수</span>
+                    <legend>(上善若水)</legend>
+                </h2>
+                <p class="topic-intro-text">It stresses the characteristics of the water -
+                    it can take various forms, gives life to things, keeps flowing and eventually
+                    reaches the sea. These are what the commons and our work of sharing are about.</p>
+                <hr class="thin-line">
+
+                <div class="program-schedule">
+                    <ul class="program-schedule-list">
+
+                        <li class="program-schedule-item icon-r lecture">
+                            <a class="program-schedule-icon" href="#"><img src="./resources/icon/lecture.png"></a>
+                        </li>
+
+                        <li class="program-schedule-item">
+                            <a class="program-schedule-item-link" href="#lacture">Lacture</a>
+                        </li>
+
+                        <li class="program-schedule-item icon-r forum">
+                            <a class="program-schedule-icon" href="#"></a><img src="./resources/icon/forum.png"></a>
+                        </li>
+
+                        <li class="program-schedule-item">
+                            <a class="program-schedule-item-link" href="#forum">Forum</a>
+                        </li>
+
+                        <li class="program-schedule-item icon-r workshop">
+                            <a class="program-schedule-icon" href="#"></a><img src="./resources/icon/workshop.png"></a>
+                        </li>
+
+                        <li class="program-schedule-item">
+                            <a class="program-schedule-item-link href=" #workshop">Workshop</a>
+                        </li>
+
+                        <li class="program-schedule-item icon-r ignite">
+                            <a class="program-schedule-icon" href="#"></a><img src="./resources/icon/ignite.png"></a>
+                        </li>
+
+                        <li class="program-schedule-item">
+                            <a class="program-schedule-item-link" href="#events">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="div1">
+                    <p class="s-date">09:30 - 10:00</p>
+                    <p class="reg">Registration</p>
+                </div>
+
+                <div class="div2">
+                    <p class="s-date">10:00 - 10:10</p>
+                    <p class="opening-remark">Opening Remarks</p>
+                    <p class="t-zoon">TBD</p>
+                </div>
+
+                <div class="div3">
+                    <p class="s-date">10:10 - 10:40(30')</p>
+                    <button class="b-btn">
+                        <li class="program-schedule-item icon-r workshop">
+                            <a class="program-schedule-icon" href="#"><i class="fa-solid fa-pen"></i></a>
+                        </li>
+                        <p class="note"><span>[Keynote]Humanology</span>
+                            <legend>Prof.Kilnam Cheon</legend>
+                        </p>
+                        <p class="p-place">Main Auditorium</p>
+                    </button>
+                </div>
+
+                <div class="div4">
+                    <p class="s-date">10:40 - 10:50(10')</p>
+                    <p class="break">Break</p>
+                </div>
+
+                <div class="div5 grid-item">
+                    <p class="s-date">10:50 - 12:10(80')</p>
+                    <ul class="s-pro">
+                        <p class="t-speach">
+                            <li class="program-schedule-item icon-r lecture">
+                                <a class="program-schedule-icon" href="#"><i
+                                        class="fa-solid fa-book-open-reader"></i></a>
+                            </li>
+
+                            <li class="program-schedule-item">
+                                <a class="program-schedule-item-link  p-name" href="#lecture">Open Business</a>
+                            </li>
+                        </p>
+                        <p class="t-detls ">What points should be ensured in order to success in open buiness?
+                        </p>
+                        <p class="t-place">
+                            <span>Main Auditorium</span>
+                            <legend><i class="fa-solid fa-check"></i> What's Open Business?
+                            </legend>
+                        </p>
+                    </ul>
+                </div>
+
+                <div class="div6 grid-item">
+                    <ul class="s-pro">
+                        <p class="t-speach">
+                            <li class="program-schedule-item icon-r lecture">
+                                <a class="program-schedule-icon" href="#"><i
+                                        class="fa-solid fa-book-open-reader"></i></a>
+                            </li>
+
+                            <li class="program-schedule-item">
+                                <a class="program-schedule-item-link p-name" href="#lecture">Sharing City</a>
+                            </li>
+                        </p>
+                        <p class="t-detls ">What points should be ensured in order to success in open buiness?
+                        </p>
+                        <p class="t-place">
+                            <span>Small Auditorium</span>
+                            <legend><i class="fa-solid fa-check"></i> What's Sharing City?
+                            </legend>
+                        </p>
+                    </ul>
+                </div>
+
+                <div class="div7 grid-item">
+                    <ul class="s-pro">
+                        <p class="t-speach">
+                            <li class="program-schedule-item icon-r lecture">
+                                <a class="program-schedule-icon" href="#"><i
+                                        class="fa-solid fa-book-open-reader"></i></a>
+                            </li>
+
+                            <li class="program-schedule-item">
+                                <a class="program-schedule-item-link p-name" href="#lecture">Open Access</a>
+                            </li>
+                        </p>
+                        <p class="t-detls ">What points should be ensured in order to success in open buiness?
+                        </p>
+                        <p class="t-place">
+                            <span>Seminar room</span>
+                            <legend><i class="fa-solid fa-check"></i> What's Open Access?</legend>
+                        </p>
+                    </ul>
+                </div>
+
+                <div class="div8 ">
+                    <p class="s-date">12:10 - 13:20(70')</p>
+                    <p class="break">점심식사</p>
+                </div>
+
+                <div class="div9 grid-item">
+                    <p class="s-date">13:20 - 14:50(90')</p>
+                    <ul class="s-pro">
+                        <p class="t-speach">
+                            <li class="program-schedule-item icon-r lecture">
+                                <a class="program-schedule-icon" href="#"><i
+                                        class="fa-solid fa-book-open-reader"></i></a>
+                            </li>
+
+                            <li class="program-schedule-item">
+                                <a class="program-schedule-item-link p-name" href="#lecture">Open Glam</a>
+                            </li>
+                        </p>
+                        <p class="t-detls ">What points should be ensured in order to success in open buiness?</p>
+                        <p <p class="t-place">
+                            <legend>Main Auditorium</legend> <i class="fa-solid fa-check"></i> What's Open Glam?
+                        </p>
+                    </ul>
+                </div>
+
+                <!--<div class="div10 grid-item">
+                    <div class="grid-item-10">
+                        <ul class="s-pro">
+                            <p class="t-speach">
+                                <li class="program-schedule-item icon-r forum">
+                                    <a class="program-schedule-icon" href="#"><i class="fa-solid fa-message"></i></a>
+                                </li>
+
+                                <li class="program-schedule-item">
+                                    <a class="program-schedule-item-link p-name" href="#forum">Open Art</a>
+                                </li>
+                            </p>
+                            <p class="t-detls ">What points should be ensured in order to success in open buiness?</p>
+                            <p class="t-place">
+                                <legend>Small Auditorium</legend> <i class="fa-solid fa-check"></i> What's Open Art?
+                            </p>
+                        </ul>
+                    </div>
+
+                    <!--<div class="div11 grid-item">
+                        <ul class="s-pro-forum">
+                            <p class="t-speach">
+                                <li class="program-schedule-item icon-r lecture">
+                                    <a class="program-schedule-icon" href="#"><i
+                                            class="fa-solid fa-book-open-reader"></i></a>
+                                </li>
+
+                                <li class="program-schedule-item">
+                                    <a class="program-schedule-item-link p-name" href="#lacture">Forum-Recycling Shared
+                                        Creative
+                                        Works</a>
+                                </li>
+                            </p>
+                            <p class="t-detls ">Hosted from Ministry of Culture.Sports and Tourism and Bangladesh
+                                Copyright
+                                Commission </p>
+                            <p class="t-place">
+                                <legend>Seminar room</legend>
+                            </p>
+                        </ul>
+                    </div>
+
+                    <!--<div class="div12 grid-item">
+                        <p class="s-date">14:50 - 15:20(30')</p>
+                        <p class="break">Break</p>
+                    </div>
+
+                    <div class="div13 grid-item">
+                        <p class="s-date">15:20 - 16:40(80')</p>
+                        <ul class="s-pro">
+                            <p class="t-speach">
+                                <li class="program-schedule-item icon-r lecture">
+                                    <a class="program-schedule-icon" href="#"><i
+                                            class="fa-solid fa-book-open-reader"></i></a>
+                                </li>
+                                <li class="program-schedule-item">
+                                    <a class="program-schedule-item-link p-name" href="#lacture">Open Hardware</a>
+                                </li>
+                            </p>
+                            <p class="t-detls ">What points should be ensured in order to success in open buiness?</p>
+                            <p class="t-place">
+                                <legend>Main Auditorium</legend> <i class="fa-solid fa-check"></i> What's Open Hardware?
+                            </p>
+                        </ul>
+                    </div>
+
+                    <div class="div14 grid-item">
+                        <ul class="s-pro">
+                            <p class="t-speach">
+                                <li class="program-schedule-item icon-r lecture">
+                                    <a class="program-schedule-icon" href="#"><i
+                                            class="fa-solid fa-book-open-reader"></i></a>
+                                </li>
+
+                                <li class="program-schedule-item">
+                                    <a class="program-schedule-item-link p-name" href="#lacture">Open Education</a>
+                                </li>
+                            </p>
+                            <p class="t-detls ">What points should be ensured in order to success in open buiness?</p>
+                            <p class="t-place">
+                                <legend>Small Auditorium</legend> <i class="fa-solid fa-check"></i> Open Education?
+                            </p>
+                        </ul>
+                    </div>
+
+                    <div class="div15 grid-item">
+                        <p class="s-date">16:40 - 17:00(20')</p>
+                        <p class="break">Break</p>
+                    </div>
+
+                    <div class="div16 grid-item">
+                        <p class="s-date">17:00 - 17:40(40')</p><button class="b-btn">
+                            <li class="program-schedule-item icon-r workshop">
+                                <a class="program-schedule-icon" href="#"><i class="fa-solid fa-pen"></i></a>
+                            </li>
+                            <p class="note"><span>[Closing note]Present and future of shared knowledge
+                                    resoureces</span>
+                                <legend>Lila Tretikov_Wikimedia CEO </legend>
+                            </p>
+                            <p class="p-place">Main Auditorium</p>
+                        </button>
+                    </div>
+
+                    <div class="div17 grid-item">
+                        <p class="s-date">20:00 - 22:00</p>
+                        <p class="t-speach">
+                            <li class="program-schedule-item icon-r ignite">
+                                <a class="program-schedule-icon" href="#"><i class="fa-solid fa-sun"></i></a>
+                            </li>
+
+                            <li class="program-schedule-item">
+                                <a class="program-schedule-item-link" href="#lacture">GIP Party (only with
+                                    invitation)</a>
+                            </li>
+                        </p>
+                        <p class="p-place">
+                            <legend>Venue TBD</legend>
+                        </p>
+                    </div>-->
+
+            </div>
+
+            <button class="button-select button-modal">Join GI Product Global Summit 2023</button>
+        </section>
+    </main>
+
+    <footer class="footer mobile-footer">
+        <div class="footer-block">
+            <div class="b-logo">
+                <img src="./resources/logo/capstone-project-Logo_2.png" alt="GI Products" />
+            </div>
+            <div class="rights">
+                <h3>&#169;2023 GI Products Bangladesh. Some Rights Reserved.</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
