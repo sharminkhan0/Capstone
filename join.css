@@ -147,3 +147,30 @@ button {
   color: #272a31;
   text-align: center;
 }
+
+.sub-date-heading strong {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.sub-date-heading:hover {
+  color: #ec5242;
+  font-size: 26px;
+  letter-spacing: 1px;
+  transform: translateY(-7px);
+}
+
+.sub-date-heading strong:hover {
+  font-size: 27px;
+}
+
+.topic-title {
+  font-size: 28px;
+  margin: 35px;
+  padding: 15px 0 0 15px;
+  font-weight: 900;
+  color: #272a31;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
