@@ -121,7 +121,8 @@ a {
   color: #b94032;
   letter-spacing: 2px;
   transform: translateY(-7px);
-  font-weight: bolder;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .navbar-link:active {
