@@ -105,6 +105,10 @@ For more information on the importance of a professional README for your reposit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 📖 Project Story <a name="project-story"></a>
+
+- [Project Story Link](https://medium.com/@sharminakterkhan0/challenges-and-triumphs-navigating-the-path-to-a-successful-capstone-project-275786e92b4d)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
