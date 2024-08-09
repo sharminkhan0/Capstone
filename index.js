@@ -15,23 +15,23 @@ element.addEventListener('click', menu_icon);
 const speakersData = [
   {
     id: 'speaker1',
-    profileImage: './resources/speakers/speaker1jpg.jpg',
-    name: 'Razib Ahmed',
-    position: 'Former and Founder President of e-Commerce Association of Bangladesh (e-CAB)',
-    description: 'He is the creator of Search English and serves as the platform s chief executive officer. He also serves as managing director and founder.',
+    profileImage: './resources/speakers/sharmin-logo.png'',
+    name: 'Sharmin Akter khan',
+    position: 'Entrepreneur',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati.',
   },
   {
     id: 'speaker2',
-    profileImage: './resources/speakers/speaker2.jpg',
-    name: 'Kakoly Talokder',
-    position: 'President at E-Commerce Development Center',
+    profileImage: './resources/speakers/sharmin-logo.png'',
+    name: 'Sharmin Akter khan',
+    position: 'Entrepreneur',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
   },
   {
     id: 'speaker3',
-    profileImage: './resources/speakers/speaker3 .jpg',
-    name: 'Niger Fatema',
-    position: 'External Advisor at Eastern University',
+    profileImage: './resources/speakers/sharmin-logo.png'',
+    name: 'Sharmin Akter khan',
+    position: 'Entrepreneur',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
   },
   {
